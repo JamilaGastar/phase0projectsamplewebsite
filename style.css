@@ -1,0 +1,30 @@
+body {
+  background-color: rgba(255, 255, 255, 0.658);
+  font-family: "montserrat", sans-serif;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: "Raleway", sans-serif;
+}
+
+h2:hover {
+  color: #c699de;
+  font-style: italic;
+}
+
+.profile-photo {
+  width: 40%;
+  float: left;
+  margin-right: 15px;
+  box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  filter: grayscale(100%);
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
