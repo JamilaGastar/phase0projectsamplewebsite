@@ -3,9 +3,33 @@ body {
   font-family: "montserrat", sans-serif;
 }
 
+nav {
+  text-align: right;
+}
+
+nav a:hover {
+  color: #c699de;
+}
+
+.text-box {
+  position: absolute;
+  width: 100%;
+}
+
 h1 {
   font-size: 50px;
   font-family: "Raleway", sans-serif;
+  position: absolute;
+  top: 400px;
+  left: 80px;
+}
+
+.whoami h2 {
+  font-size: 50px;
+  font-family: "Raleway", sans-serif;
+  position: absolute;
+  top: 400px;
+  left: 80px;
 }
 
 h2:hover {
@@ -14,11 +38,16 @@ h2:hover {
 }
 
 .profile-photo {
-  width: 40%;
-  float: left;
-  margin-right: 15px;
+  display: block;
+  max-width: 70%;
+  max-height: 70%;
+  min-width: 70%;
+  min-height: 70%;
+  margin-right: auto;
+  margin-left: auto;
   box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   filter: grayscale(100%);
+  object-fit: cover;
 }
 
 a:link {
