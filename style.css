@@ -1,11 +1,12 @@
 body {
   font-family: "montserrat", sans-serif;
-  margin: 20px;
+  margin: 50px;
+  background-color: #313031;
 }
 
 nav {
   text-align: right;
-  padding: 38px;
+  padding: 10px;
   font-size: 0.9em;
 }
 
@@ -18,28 +19,29 @@ nav a {
   text-decoration: none;
 }
 
+a.link {
+  color: #000000;
+}
+
+a {
+  color: #000000;
+}
+
 h2:hover {
   color: #c699de;
   font-style: italic;
 }
 
+.container:hover .profile-photo {
+  opacity: 0.3;
+}
+
 .profile-photo {
   display: block;
-  max-width: 70%;
-  max-height: 70%;
-  min-width: 70%;
-  min-height: 70%;
   margin-right: auto;
   margin-left: auto;
   box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   filter: grayscale(100%);
-  object-fit: cover;
-}
-
-a:link {
-  color: black;
-}
-
-a:visited {
-  color: black;
+  opacity: 1;
+  transition: 0.5s ease;
 }
