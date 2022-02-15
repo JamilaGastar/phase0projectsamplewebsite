@@ -1,35 +1,21 @@
 body {
-  background-color: rgba(255, 255, 255, 0.658);
   font-family: "montserrat", sans-serif;
+  margin: 20px;
 }
 
 nav {
   text-align: right;
+  padding: 38px;
+  font-size: 0.9em;
 }
 
 nav a:hover {
   color: #c699de;
+  text-decoration: none;
 }
 
-.text-box {
-  position: absolute;
-  width: 100%;
-}
-
-h1 {
-  font-size: 50px;
-  font-family: "Raleway", sans-serif;
-  position: absolute;
-  top: 400px;
-  left: 80px;
-}
-
-.whoami h2 {
-  font-size: 50px;
-  font-family: "Raleway", sans-serif;
-  position: absolute;
-  top: 400px;
-  left: 80px;
+nav a {
+  text-decoration: none;
 }
 
 h2:hover {
